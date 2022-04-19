@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+
+/* container tugas css */
+body {
+    background-image: url('moroccan-flower.png');
+    background-color: #e3dbdb;
+    left: 0;
+}
+
+#image {
+    width: 100%;
+    height: 500px;
+    margin-right: 0;
+    
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+   
+}
+
+#heading {
+    position: absolute;
+    top: 61%;
+    left: 42%;
+    color: whitesmoke;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.s {
+    position: absolute;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    top: 18%;
+    left: 44%;
+    border-radius: 400px ;
+    overflow: hidden;
+    box-shadow: -5px -5px 10px 1px black;
+}
+
+#heading2 {
+    position: absolute;
+    top: 68%;
+    left: 37%;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+}
+
+#linkedin {
+    background-color: blue;
+    border: 0;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 84%;
+    left: 43.5%;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white;
+    opacity: .8;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    background-color: lightskyblue;
+}
+#linkedin:active {
+    background-color: aqua;
+}
+
+#pembaharuan {
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+}
+
+#paragraf {
+    margin: auto;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#skill {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+#other {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+#friends {
+    width: 300px;
+    padding-right: 30px;
+    text-align: center;
+
+}
+
+.margin-paragraf {
+    margin-top: 10px;
+}
+
+h3 {
+    color: blue;
+}
+
+#contact {
+    width: 30%;
+    margin: auto;
+    color: #949492;
+}
+
+#contact h3 {
+    text-align: center;
+    margin-right: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid blue;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 10px;
+  box-sizing:border-box;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"]:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type="text"]:hover {
+    border-color: #949492;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:hover {
+    border-color: #949492;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: lightskyblue;
+}
+
+button[type="submit"]:active {
+    background-color: aqua;
+    height: 45px;
+}
+
+.footer {
+    background-color: #949492;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30gpx;
+    color: whitesmoke;
+    box-shadow: -2px -1px 4px black;
+    text-shadow: 5px 5px 10px black;
+    box-sizing: border-box;
+}
+

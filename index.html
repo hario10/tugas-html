@@ -5,89 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body cellpadding="0">
-    <h1>My Portfolio</h1>
-    <hr>
-    <h3>Biografi</h3>
-        <p>Halo perkenalkan nama saya Hario Soedirman, saat ini saya belajar di Eduwork melalui program ISA. keseharian saya belajar ngoding
+<body>
+    <div class="hero">
+        <img id="image" src="pexels-pixabay-261579.jpg" alt="hero" >
+        <h3 id="heading">Siswa ISA Eduwork</h3>
+        <h1 id="heading2">hario soedirman</h1>
+        <a href="https://www.google.com" target="_blank"><input type="button" id="linkedin" value="Kunjungi"></a> 
+        <div class="s">
+            <img src="Foto 2.jpg" alt="fotosaya" width="200" height="200">
+        </div>
+    </div>
+    <section>
+        <header>
+            <h1 id="pembaharuan">Biografi Saya</h1>
+            <p id="paragraf">Halo perkenalkan nama saya Hario Soedirman, saat ini saya belajar di Eduwork melalui program ISA. keseharian saya belajar ngoding
             dan membaca buku terkait dengan ilmu-ilmu yang baru guna menambah pemahaman saya terkait dalam dunia era globalisasi saat sekarang ini.
-        </p>
-        <p>Saya menyukai suatu hal yang baru, dimana sesuatu itu memang benar-benar bermanfaat untuk diri sendiri maupun untuk orang lain.
-            saya memiliki impian menciptakan suatu karya yang dimana dari karya tersebut dapat membantu orang banyak, terkhusus untuk 
-            dunia pendidikan untuk era corona saat ini.
-        </p>
-    <h3>Skills</h3>
-        <ul>
-            <li>Microsot Office Word</li>
-            <li>Microsoft Office Excell</li>
-            <li>Microsoft Office Powerpoint</li>
-            <li>Adeobe Potoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>CorelDraw</li>
-        </ul>
-    <h3>Other Skills</h3>
-        <ol>
-            <li>Hukum</li>
-            <li>Managemen</li>
-        </ol>
-    <h3>My Close Friends</h3>
-    <table border="1" cellspacing="0" cellpadding="4">
-        <tr>
-            <th>No</th>
-            <th>Name</th>
-            <th>Address</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Muhammad Arief</td>
-            <td>Payakumbuah</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Adel</td>
-            <td>Bintuangan</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Indah Pratiwi</td>
-            <td>Bukittinggi</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Fahmi</td>
-            <td>Bukittinggi</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Annisa Aulia Safitri</td>
-            <td>Guguak Randah</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Widya Ulfa Armiya</td>
-            <td>Guguak Randah</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>Suci Ramadhani</td>
-            <td>Guguak Randah</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Iqbal</td>
-            <td>Guguak Randah</td>
-        </tr>
-    </table>
-<h3>Contact Me</h3>
+            Saya menyukai suatu hal yang baru, dimana sesuatu itu memang benar-benar bermanfaat untuk diri sendiri maupun untuk orang lain.
+            <span>saya memiliki impian menciptakan suatu karya yang dimana dari karya tersebut dapat membantu orang banyak, terkhusus untuk 
+            dunia pendidikan untuk era corona saat ini.</span> 
+            </p>
+        </header>
+    </section>
+    <div class="tentang">
+        <article id="skill">
+            <h3>Skills</h3>
+        <div class="margin-paragraf">
+            <p>Microsot Office Word</p> 
+            <p>Microsoft Office Excell</p>
+            <p>Microsoft Office Powerpoint</p>
+            <p>Adeobe Potoshop</p>
+            <p>Adobe Illustrator</p>
+            <p>CorelDraw</p>
+        </div>
+        </article>
+        <article id="other">
+            <h3>Other Skills</h3>
+           <div class="margin-paragraf"> 
+               <p>Hukum</p> 
+                <p>Managemen</p> 
+            </div>    
+        </article>
+        <article id="friends">
+            <h3>My Close Friends</h3>
+            <div class="margin-paragraf">
+                <p>Saya memiliki beberapa teman dekat, yang mana diantaranya adalah M. Arief, Adel, Fahmi, Tiwi, Iqbal, dan 
+                masih ada yang lainnya, yang tidak bisa disebutkan satu persatu
+            </p>
+            </div>
+        </article>
+    </div>
+    <section id="contact">
+        <h3>Contact Me</h3>
     <form>
-        <label for="name">E-mail:</label>
+        <label for="name">E-mail</label>
         <input type="text" id="name" name="name" placeholder="E-mail"><br>
-        <label for="name">Message:</label>
-        <textarea name="" id="" cols="19" rows="3"></textarea><br>
-        <button>send</button>
+        <label for="name">Message</label>
+        <textarea name="subject" id="subject" style="height: 180px"; placeholder="Ayo diisi ya guys"></textarea><br>
+        <button type="submit">Send</button>
     </form>
-    <hr>
-    <p>Copyright &copy;2022 - All right reserves</p>
+    </section>
+    <div class="footer">
+        <p>Copyright &copy; 2022 - Hario Soedirman</p>
+    </div>
+
 </body>
 </html>
